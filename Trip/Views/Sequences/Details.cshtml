@@ -1,0 +1,70 @@
+﻿@model Trip.Models.SequenceDisp
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sequence</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+    <table class="table">
+        <tr>
+            <th>Activity</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Type</th>
+            <th>Distance</th>
+            <th>Duration</th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.Activities)
+        {
+            if (item.Selected)
+            {
+                Trip.Models.Activity a = (Trip.Models.Activity)item.Obj;
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => a.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => a.Start.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => a.End.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => a.Type)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => a.Distance)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => a.Duration)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = a.ActivityID }) |
+                        @Html.ActionLink("Details", "Details", new { id = a.ActivityID })
+                    </td>
+                </tr>
+            }
+        }
+   </table>
+
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SequenceID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

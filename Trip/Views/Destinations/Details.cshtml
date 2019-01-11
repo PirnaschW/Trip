@@ -1,0 +1,76 @@
+﻿@model Trip.Models.DestinationDisp
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Destination</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Region.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Region.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NatureRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NatureRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NightlifeRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NightlifeRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ShoppingRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ShoppingRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Activities)
+        </dt>
+
+        <dd>
+            @foreach (var item in Model.Activities)
+            {
+                if (item.Selected)
+                {
+                    Trip.Models.Activity a = (Trip.Models.Activity)item.Obj;
+                    <div>@a.Name</div>
+                    <div>@a.Type</div>
+                    <div>@a.Distance</div>
+                    <div>@a.Duration</div>
+                }
+            }
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DestinationID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

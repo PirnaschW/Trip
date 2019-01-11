@@ -1,0 +1,105 @@
+﻿@model Trip.Models.ActivityDisp
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Activity</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Distance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Distance)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Duration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ExperienceRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExperienceRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TechnicalRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TechnicalRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EnduranceRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EnduranceRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ElusiveRating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ElusiveRating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Start.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Start.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.End.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.End.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Reversible)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Reversible)
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ActivityID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
