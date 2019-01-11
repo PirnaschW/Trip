@@ -136,9 +136,9 @@ C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.DependencyCol
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.WindowsServer.xml
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.Web.xml
-C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csprojResolveAssemblyReference.cache
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.Migrations.initial.resources
-C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.GenerateResource.Cache
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.GenerateResource.cache
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.CoreCompileInputs.cache
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.CopyComplete
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.dll
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.pdb
