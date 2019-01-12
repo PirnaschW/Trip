@@ -62,3 +62,9 @@
 /Trip/obj/Debug/Trip.pdb
 /Trip/obj/Release/Trip.csproj.CoreCompileInputs.cache
 /Trip/obj/Release/Trip.csprojAssemblyReference.cache
+/Trip/bin/Microsoft.AspNet.TelemetryCorrelation.dll
+/Trip/bin/System.Diagnostics.DiagnosticSource.dll
+/Trip/bin/System.Diagnostics.DiagnosticSource.xml
+/Trip/bin/Microsoft.AspNet.TelemetryCorrelation.xml
+/Trip/obj/Debug/Trip.Migrations.WebInitial.resources
+/Trip/obj/Release/Trip.Migrations.WebInitial.resources
