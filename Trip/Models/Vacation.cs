@@ -35,7 +35,7 @@ namespace Trip.Models
             double Duration = 0;
             for (int i = 0; i < VacationsToSequences.Count; i++)
             {
-                Duration += VacationsToSequences[i].Sequence.GetDuration();
+//                Duration += VacationsToSequences[i].Sequence.GetDuration();
             }
             return Duration;
         }

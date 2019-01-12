@@ -12,8 +12,5 @@ namespace Trip.Models
         [MaxLength(50)]
         [Display(Name = "Region")]
         public string Name { get; set; }
-
-        public virtual IList<Destination> Destinations { get; set; }
-
     }
 }

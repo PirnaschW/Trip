@@ -31,10 +31,11 @@
             <div class="col-md-10">
                 @for (int i = 0; i < Model.Sequences.Count(); i++)
                 {
+                    Trip.Models.Sequence s = (Trip.Models.Sequence ) Model.Sequences[i].Obj;
                     @Html.EditorFor(m => Model.Sequences[i].Selected)
-                    @Html.DisplayFor(m => Model.Sequences[i].Name)
-                    @Html.HiddenFor(m => Model.Sequences[i].Name)
-                    @Html.HiddenFor(m => Model.Sequences[i].Id)
+                    @Html.DisplayFor(m => s.Name)
+                    @Html.HiddenFor(m => s.Name)
+                    @Html.HiddenFor(m => s.SequenceID)
                     <br />
                 }
             </div>

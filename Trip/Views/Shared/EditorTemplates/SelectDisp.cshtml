@@ -1,0 +1,5 @@
+﻿@model Trip.Models.SelectDisp
+
+@Html.RadioButtonFor(model => model, ((Trip.Models.Destination)Model.Obj ).DestinationID, new { id = ((Trip.Models.Destination)Model.Obj).DestinationID, @checked = Model.Selected })
+@Html.Label(((Trip.Models.Destination)Model.Obj).Name)
+<br />

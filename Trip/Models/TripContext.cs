@@ -33,6 +33,5 @@ namespace Trip.Models
             modelBuilder.Entity<VacationToSequence>().HasRequired(s => s.Sequence).WithMany().WillCascadeOnDelete(false);
             base.OnModelCreating(modelBuilder);
         }
-
     }
 }

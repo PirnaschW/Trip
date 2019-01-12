@@ -50,7 +50,7 @@ namespace Trip.Controllers
             var MyCheckBoxList = new List<SelectDisp>();
             foreach (var item in Results)
             {
-                MyCheckBoxList.Add(new SelectDisp(item.SequenceID, item.Name, item.Selected, item.s));
+                MyCheckBoxList.Add(new SelectDisp(item.SequenceID, item.Selected, item.s));
             }
             MyVacationDisp.Sequences = MyCheckBoxList;
 
@@ -109,7 +109,7 @@ namespace Trip.Controllers
             var MyCheckBoxList = new List<SelectDisp>();
             foreach (var item in Results)
             {
-                MyCheckBoxList.Add(new SelectDisp(item.SequenceID, item.Name, item.Selected, item.s));
+                MyCheckBoxList.Add(new SelectDisp(item.SequenceID, item.Selected, item.s));
             }
             MyVacationDisp.Sequences = MyCheckBoxList;
 
