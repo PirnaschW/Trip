@@ -88,8 +88,6 @@ C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.DependencyCol
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.WindowsServer.xml
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.Web.xml
-C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csprojResolveAssemblyReference.cache
-C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.Migrations.initial.resources
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.GenerateResource.Cache
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.CoreCompileInputs.cache
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.dll
@@ -147,3 +145,10 @@ C:\Users\Admin\C++\Trip\Trip\obj\Debug\Trip.csproj.CoreCompileInputs.cache
 C:\Users\Admin\C++\Trip\Trip\obj\Debug\Trip.csproj.CopyComplete
 C:\Users\Admin\C++\Trip\Trip\obj\Debug\Trip.dll
 C:\Users\Admin\C++\Trip\Trip\obj\Debug\Trip.pdb
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csprojAssemblyReference.cache
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.Migrations.WebInitial.resources
+C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.CopyComplete
