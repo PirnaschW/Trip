@@ -89,7 +89,6 @@ C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.ServerTelemet
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.WindowsServer.xml
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\bin\Microsoft.AI.Web.xml
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.GenerateResource.Cache
-C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.csproj.CoreCompileInputs.cache
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.dll
 C:\Data\pirna00w\Downloads\C++\Projects\Trip\Trip\obj\Debug\Trip.pdb
 C:\Users\Admin\C++\Trip\Trip\bin\ApplicationInsights.config
