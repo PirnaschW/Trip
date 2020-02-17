@@ -68,3 +68,4 @@
 /Trip/bin/Microsoft.AspNet.TelemetryCorrelation.xml
 /Trip/obj/Debug/Trip.Migrations.WebInitial.resources
 /Trip/obj/Release/Trip.Migrations.WebInitial.resources
+/.vs/Trip/v16/Server/sqlite3/db.lock
